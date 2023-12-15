@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../images/background_image.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    background-color: rgba(255, 255, 255, 0.48);
+    border: 2px;
+    border-color: rgb(1, 88, 1);
+    border-style: dashed;
+    width: 85vmin;
+    height: 85vmin;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.flexBox {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name {
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 40px;
+    color: rgb(1, 88, 1);
+    font-weight: bold;
+}
+
+#scoreBox {
+    color: rgb(1, 88, 1);
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.head {
+    background-color: rgb(0, 105, 0);
+    border-radius: 10%;
+    margin: 1px;
+}
+
+.snake {
+    background-color: rgb(0, 160, 0);
+    border-radius: 10%;
+    margin: 1px;
+}
+
+.food {
+    background-color: rgb(255, 153, 10);
+    border-radius: 100%;
+    margin: 2px;
+}
