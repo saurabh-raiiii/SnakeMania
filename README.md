@@ -1,4 +1,4 @@
-# Snake Mania Game
+# Snake Mania 🐍
 
 Welcome to Snake Mania, a classic snake game built using HTML, CSS, and JavaScript. This project brings back the nostalgic joy of playing the iconic snake game, where your goal is to control the snake, eat the food, and grow longer without hitting the walls or yourself.
 
