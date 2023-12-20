@@ -50,7 +50,7 @@ function gameEngine(){
     if(snakeArr[0].y === food.y && snakeArr[0].x === food.x){
 
         // eaten the food
-        snakeArr.unshift({x : snakeArr[0].x + inputDir.x, y : snakeArr[0].y + inputDir.y});
+        snakeArr.push({x : snakeArr[0].x + inputDir.x, y : snakeArr[0].y + inputDir.y});
 
         // updating score
         score += 1;
