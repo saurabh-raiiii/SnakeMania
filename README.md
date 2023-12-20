@@ -30,7 +30,7 @@ Welcome to Snake Mania, a classic snake game built using HTML, CSS, and JavaScri
 
 ## Screenshots:
 
-
+![Screenshot 2023-12-20 at 8 13 46 PM](https://github.com/saurabh-raiiii/JavaScript/assets/51364763/5ee425e2-c82f-424b-bd2e-05e19467ab77)
 
 ## Contributing:
 
