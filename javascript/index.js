@@ -3,9 +3,9 @@ let inputDir = { x: 0, y: 0 };
 let speed = 10;
 let lastPaintTime = 0;
 let snakeArr = [
-    {x : 13, y : 15}
+    {x : 12, y : 12}
 ];
-let food = {x : 5, y : 5}
+let food = {x : 6, y : 6}
 let score = 0;
 
 // Game function
