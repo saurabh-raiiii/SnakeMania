@@ -64,8 +64,9 @@ function gameEngine(){
         food = {x: Math.round(a + (b - a) * Math.random()), y: Math.round(a + (b - a) * Math.random())};
 
         // when a food is render on a snake
-        for(let i = 1; i< snakeArr.length; i++){
+        for(let i = 0; i< snakeArr.length; i++){
             if(snakeArr[i].x === food.x && snakeArr[i].y === food.y){
+                i = 0;
                 food = {x: Math.round(a + (b - a) * Math.random()), y: Math.round(a + (b - a) * Math.random())};
             }
         }
