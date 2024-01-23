@@ -1,9 +1,9 @@
 // constants and veriable
 let inputDir = { x: 0, y: 0 };
-let speed = 10;
+let speed = 5;
 let lastPaintTime = 0;
 let snakeArr = [
-    {x : 12, y : 12}
+    {x : 11, y : 11}
 ];
 let food = {x : 6, y : 6}
 let score = 0;
@@ -40,8 +40,9 @@ function gameEngine(){
     if(isCollide(snakeArr)){
         inputDir = {x : 0, y : 0};
         alert("Game Over. Press any key to play again!");
-        snakeArr = [{x : 13, y : 13}];
+        snakeArr = [{x : 11, y : 11}];
         score = 0;
+        speed = 5;
         scoreBox.innerHTML = score;
     }
 
@@ -54,6 +55,10 @@ function gameEngine(){
 
         // updating score
         score += 1;
+
+        if(score % 7 == 0 && speed <= 10){
+            speed += 1;
+        }
 
         // rendering score
         scoreBox.innerHTML = score;
