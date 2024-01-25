@@ -22,11 +22,9 @@ Welcome to Snake Mania, a classic snake game built using HTML, CSS, and JavaScri
 
 ## How to Play:
 
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
-3. Use the arrow keys or on-screen controls to navigate the snake.
-4. Eat the food to grow longer and increase your score.
-5. Avoid collisions with walls and the snake's own tail.
+1. Use the arrow keys or on-screen controls to navigate the snake.
+2. Eat the food to grow longer and increase your score.
+3. Avoid collisions with walls and the snake's own tail.
 
 ## Screenshots:
 
